@@ -1,0 +1,225 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #090118;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    margin: 0;
+}
+
+.title {
+    background: linear-gradient(to right,
+            #FCCA2E 35%,
+            #0C0023 35%);
+    max-height: 930px;
+    /* background-color: #0C0023; */
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.container.flex-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoName {
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+    color: black;
+}
+
+.navbar {
+    font-size: 20px;
+}
+
+.phoneNumber {
+    display: flex;
+    align-items: center;
+}
+
+.phoneNumber a {
+    position: relative;
+    padding-left: 20px;
+}
+
+.phoneNumber a::before {
+    position: absolute;
+    content: url('../images/phone.png');
+    left: 0;
+    top: -2px;
+}
+
+/* .navbar ul li a,
+.phoneNumber a {
+    color: white;
+    text-decoration: none;
+    display: block;
+} */
+
+.navbar ul li a {
+    padding-right: 20px;
+}
+
+.left-image img {
+    max-width: 600px;
+
+}
+
+.right-text {
+    max-width: 500px;
+}
+
+.right-text-container {
+    padding-bottom: 100px;
+}
+
+.right-text h1 {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.right-text p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+button {
+    color: #0C0023;
+    background-color: #FCCA2E;
+    width: 173px;
+    height: 55px;
+}
+
+.TRINTI {
+    height: 100px;
+    background-color: red;
+}
+
+.contact.container {
+
+    height: 932px;
+    align-items: flex-start;
+    padding-top: 150px;
+}
+
+.contactMe {
+    max-width: 305px;
+}
+
+.contactMe h2 {
+    margin-top: 0px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.contacts-container img {
+    height: 68px;
+    padding-right: 15px;
+}
+
+.contacts-container h4 {
+    margin: 0px;
+    margin-bottom: 4px;
+}
+
+.phone,
+.mail,
+.location {
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.aboutMe-culture-section {
+    height: 700px;
+}
+
+
+.aboutMe-culture {
+    padding-bottom: 100px;
+}
+
+.watch-video {
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.watch-video img {
+    padding-right: 20px;
+}
+
+.aboutMe-container p{
+    padding-right: 20px;
+}
+
+.culture-container {
+    padding-left: 160px;
+}
+
+.icons-container img{
+    padding-right: 20px;
+}
+
+/* .aboutMe-text {
+    width: 630px;
+} */
+
+/* .culture-container{
+    width: 365px;
+} */
+
+
+
+
+.input-row {
+    flex-direction: column;
+}
+
+.input-row input {
+    height: 55px;
+}
+
+.form-container-main {
+    max-width: 670px;
+}
+
+
+.form-container .right-text-container p {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.form-container .right-text-container {
+    padding-bottom: 0px;
+}
+
+.form-container button {
+    margin-top: 15px;
+}
