@@ -55,6 +55,8 @@
     </div>
 </section>
 <section class="gallery">
+    <h2 class="myPortfolio flex-container">My <span class="h2-color">Portfolio</span></h2>
+    <h2 class="text-under">WORK</h2>
     <div class="container gallery-flex">
         <div class="col athens">
             <a href="../app/images/athens.jpg" data-fancybox="gallery1">

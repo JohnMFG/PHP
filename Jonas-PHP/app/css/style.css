@@ -227,9 +227,26 @@ button {
     margin: 10px;
 }
 
-.gallery {
-    height: 900px;
+.text-under {
+    position: absolute;
+    left: 700px;
+    top: 2250px;
+    z-index: 1;
+
+    font-weight: 500;
+    font-size: 140px;
+    /* opacity: 0.3; */
 }
+
+.myPortfolio {
+    z-index: 2;
+    position: absolute;
+    /* left: 700px; */
+    justify-content: center;
+    font-weight: 500;
+    font-size: 50px;
+}
+
 
 .gallery-flex {
     display: flex;
@@ -238,57 +255,26 @@ button {
     width: 800px;
 }
 
-.col{
-	margin-top: 25px;
-	width: calc(50% - 17px);
-} 
-
-/* .gallery-flex {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px 100px 100px;
+.col {
+    margin-top: 25px;
+    width: calc(50% - 17px);
 }
 
-.athens {
-    grid-column: 1/2;
-}
-
-.berlin {
-    grid-column: 2/-1;
-}
-
-.london {
-    grid-column: 1/2;
-}
-
-.madrid {
-    grid-column: 2/-1;
-}
-
-.paris {
-    grid-column: 1/2;
-}
-
-.rome {
-    grid-column: 2/-1;
-} */
-
-
-.col img{
-	display: block;
-	width: 100%;
+.col img {
+    display: block;
+    width: 100%;
 }
 
 .slider,
-.gallery{
-	background-color: #F2F2F2;
-	padding-top: 100px;
-	padding-bottom: 100px;
+.gallery {
+    margin-top: 130px;
+    background-color: #0C0023;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.slider{
-	background-color: #A5A5A5;
+.slider {
+    background-color: #A5A5A5;
 }
 
 
