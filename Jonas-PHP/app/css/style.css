@@ -29,6 +29,10 @@ body {
     /* background-color: #0C0023; */
 }
 
+.hero {
+    height: 800px;
+}
+
 ul {
     list-style: none;
 }
@@ -80,6 +84,8 @@ ul {
 }
 
 .left-image img {
+    display: block;
+
     max-width: 600px;
 
 }
@@ -109,6 +115,10 @@ button {
     background-color: #FCCA2E;
     width: 173px;
     height: 55px;
+}
+
+.h2-color {
+    color: #FCCA2E;
 }
 
 .TRINTI {
@@ -169,7 +179,7 @@ button {
     padding-right: 20px;
 }
 
-.aboutMe-container p{
+.aboutMe-container p {
     padding-right: 20px;
 }
 
@@ -177,23 +187,113 @@ button {
     padding-left: 160px;
 }
 
-.icons-container img{
+.icons-container img {
     padding-right: 20px;
 }
 
-.design div{
+.design div {
     background-color: #0C0023;
     margin: 20px;
     padding: 35px;
 }
 
-/* .aboutMe-text {
-    width: 630px;
+.freelance {
+    display: flex;
+    justify-content: center;
+}
+
+.freelance-container {
+    flex-direction: column;
+    align-items: center;
+    background-color: #FCCA2E;
+    padding: 50px 200px;
+}
+
+.freelance-container h2,
+.freelance-container p {
+    color: #090118;
+}
+
+.buttonWhite {
+    background-color: white;
+    border: none;
+    margin: 10px;
+}
+
+.buttonBlack {
+    background-color: #0C0023;
+    border: none;
+    color: #FCCA2E;
+    margin: 10px;
+}
+
+.gallery {
+    height: 900px;
+}
+
+.gallery-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.col{
+	margin-top: 25px;
+	width: calc(50% - 17px);
+} 
+
+/* .gallery-flex {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px 100px 100px;
+}
+
+.athens {
+    grid-column: 1/2;
+}
+
+.berlin {
+    grid-column: 2/-1;
+}
+
+.london {
+    grid-column: 1/2;
+}
+
+.madrid {
+    grid-column: 2/-1;
+}
+
+.paris {
+    grid-column: 1/2;
+}
+
+.rome {
+    grid-column: 2/-1;
 } */
 
-/* .culture-container{
-    width: 365px;
-} */
+
+.col img{
+	display: block;
+	width: 100%;
+}
+
+.slider,
+.gallery{
+	background-color: #F2F2F2;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.slider{
+	background-color: #A5A5A5;
+}
+
+
+
+
 
 
 

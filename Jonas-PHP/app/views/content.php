@@ -1,7 +1,7 @@
 <section class="aboutMe-culture-section container ">
     <div class="aboutMe-culture flex-container">
         <div class="aboutMe-container">
-            <h2>About Me</h2>
+            <h2>About <span class="h2-color">Me</span></h2>
             <h3>Everything you can imagine is real</h3>
             <div class="aboutMe-text flex-container">
                 <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="culture-container">
-            <h2>Culture</h2>
+            <h2 class="h2-color">Culture</h2>
             <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             <div class="icons-container flex-container">
                 <a href=""><img src="../app/images/fbIcon.png" alt="fbIcon"></a>
@@ -44,11 +44,55 @@
         </div>
     </div>
 </section>
+<section class="freelance container">
+    <div class="freelance-container flex-container">
+        <h2>I'm Available for Freelance</h2>
+        <p>We provide high standard clean website for your business solutions</p>
+        <div class="freelanceButtons flex-container">
+            <button class="buttonWhite" onclick="window.location.href='' ">Get a Quote</button>
+            <button class="buttonBlack" onclick="window.location.href='' ">Get a Quote</button>
+        </div>
+    </div>
+</section>
+<section class="gallery">
+    <div class="container gallery-flex">
+        <div class="col athens">
+            <a href="../app/images/athens.jpg" data-fancybox="gallery1">
+                <img src="../app/images/athens.jpg" alt="description">
+            </a>
+        </div>
+        <div class="col berlin">
+            <a href="../app/images/berlin.jpg" data-fancybox="gallery1">
+                <img src="../app/images/berlin.jpg" alt="description">
+            </a>
+        </div>
+        <div class="col london">
+            <a href="../app/images/london.jpg" data-fancybox="gallery1">
+                <img src="../app/images/london.jpg" alt="description">
+            </a>
+        </div>
+        <div class="col madrid">
+            <a href="../app/images/madrid.jpg" data-fancybox="gallery1">
+                <img src="../app/images/madrid.jpg" alt="description">
+            </a>
+        </div>
+        <div class="col paris">
+            <a href="../app/images/paris.jpg" data-fancybox="gallery1">
+                <img src="../app/images/paris.jpg" alt="description">
+            </a>
+        </div>
+        <div class="col rome">
+            <a href="../app/images/rome.jpg" data-fancybox="gallery1">
+                <img src="../app/images/rome.jpg" alt="description">
+            </a>
+        </div>
+    </div>
+</section>
 <div class="TRINTI"></div>
 <section class="contact container flex-container">
     <div class="contactMe-container">
         <div class="contactMe">
-            <h2>Contact Me</h2>
+            <h2>Contact <span class="h2-color">Me</span></h2>
             <p>We provide high standard clean website for your business solutions</p>
         </div>
         <div class="contacts-container">
