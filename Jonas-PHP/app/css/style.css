@@ -52,14 +52,18 @@ ul {
     align-items: center;
 }
 
+.navbar {
+    font-size: 20px;
+}
+
+.navbar-mobile {
+    display: none;
+}
+
 .logoName {
     font-size: 25px;
     font-family: 'Righteous', cursive;
     color: black;
-}
-
-.navbar {
-    font-size: 20px;
 }
 
 .phoneNumber {
@@ -117,14 +121,15 @@ button {
     height: 55px;
 }
 
+button:hover {
+    background-color: #967a26;
+    transition: 0.7s;
+}
+
 .h2-color {
     color: #FCCA2E;
 }
 
-.TRINTI {
-    height: 100px;
-    background-color: red;
-}
 
 .contact.container {
 
@@ -229,20 +234,16 @@ button {
 
 .text-under {
     position: absolute;
-    left: 700px;
-    top: 2250px;
+    /* top: 2220px; */
     z-index: 1;
-
+    margin: 0;
     font-weight: 500;
     font-size: 140px;
-    /* opacity: 0.3; */
+    opacity: 0.05;
 }
 
 .myPortfolio {
     z-index: 2;
-    position: absolute;
-    /* left: 700px; */
-    justify-content: center;
     font-weight: 500;
     font-size: 50px;
 }
@@ -255,9 +256,21 @@ button {
     width: 800px;
 }
 
+.gallery {
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery button {
+    margin-top: 40px;
+}
+
 .col {
     margin-top: 25px;
     width: calc(50% - 17px);
+    -webkit-box-shadow: 5px 5px 16px 0px #FCCA2E;
+    -moz-box-shadow: 5px 5px 16px 0px #FCCA2E;
+    box-shadow: 5px 5px 5px 0px #FCCA2E;
 }
 
 .col img {
@@ -279,9 +292,37 @@ button {
 
 
 
+.round-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
 
+.italic {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+}
 
+.right-text-container h4 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #FCCA2E;
+    margin: 20px 0px;
+}
 
+.right-text-container h5 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.bg-color {
+    background: linear-gradient(to right,
+            #090118 65%,
+            #FCCA2E 65%);
+    max-height: 830px;
+}
 
 
 .input-row {
@@ -308,4 +349,80 @@ button {
 
 .form-container button {
     margin-top: 15px;
+}
+
+.brands {
+    background-color: #0C0023;
+}
+
+.map {
+    flex-direction: column;
+    align-items: center;
+}
+
+.map img {
+    margin: 30px;
+}
+
+footer {
+    flex-direction: column;
+    width: 570px;
+}
+
+footer h3 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 980px) {
+    .navbar {
+        display: none;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    .navbar-mobile {
+        position: absolute;
+        width: 100%;
+        display: block;
+    }
+
+
+
+    .navbar-mobile ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 133px;
+        padding: 20px;
+        background-color: white;
+    }
+
+    .navbar-mobile a {
+        color: #3c4761;
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0 5px;
+        padding: 10px 17px;
+        display: block;
+    }
+
+    .navbar-mobile a:hover,
+    .navbar-mobile a:active {
+        background-color: #643a79;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .navbar-mobile a.icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        color:#FCCA2E;
+    }
 }

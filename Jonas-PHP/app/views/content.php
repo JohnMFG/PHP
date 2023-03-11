@@ -54,8 +54,8 @@
         </div>
     </div>
 </section>
-<section class="gallery">
-    <h2 class="myPortfolio flex-container">My <span class="h2-color">Portfolio</span></h2>
+<section class="gallery flex-container">
+    <h2 class="myPortfolio ">My <span class="h2-color">Portfolio</span></h2>
     <h2 class="text-under">WORK</h2>
     <div class="container gallery-flex">
         <div class="col athens">
@@ -89,8 +89,25 @@
             </a>
         </div>
     </div>
+    <button onclick="window.location.href='' ">All Portfolio</button>
 </section>
-<div class="TRINTI"></div>
+<section class=" bg-color">
+    <div class="container flex-container">
+        <div class="right-text">
+            <div class="right-text-container">
+                <div>
+                    <img class="round-image" src="../app/images/free.jpeg" alt="free image">
+                </div>
+                <p class="italic">veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                <h4>John Doe</h4>
+                <h5>Company ABC</h5>
+            </div>
+        </div>
+        <div class="left-image">
+            <img src="../app/images/Man2.png" alt="man looking to the left">
+        </div>
+    </div>
+</section>
 <section class="contact container flex-container">
     <div class="contactMe-container">
         <div class="contactMe">
@@ -99,21 +116,21 @@
         </div>
         <div class="contacts-container">
             <div class="phone flex-container">
-                <img src="../app/images/CallUsOnIcon.png" alt="">
+                <img src="../app/images/CallUsOnIcon.png" alt="CallUsOnIcon">
                 <div>
                     <h4>Call on us</h4>
                     <a href="tel:+621236700411">+62 123 6700 411</a>
                 </div>
             </div>
             <div class="mail flex-container">
-                <img src="../app/images/EmailUsIcon.png" alt="">
+                <img src="../app/images/EmailUsIcon.png" alt="EmailUsIcon">
                 <div>
                     <h4>Email Us</h4>
                     <a href="mailto:info@rojo.com">info@rojo.com</a>
                 </div>
             </div>
             <div class="location flex-container">
-                <img src="../app/images/VisitOfficeIcon.png" alt="">
+                <img src="../app/images/VisitOfficeIcon.png" alt="VisitOfficeIcon">
                 <div>
                     <h4>Visit Office</h4>
                     <a href="http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003">99
@@ -142,4 +159,15 @@
             </div>
         </form>
     </div>
+</section>
+<section class="brands">
+    <div class="brands container flex-container">
+        <img src="../app/images/Logo1.png" alt="Logo1">
+        <img src="../app/images/Logo2.png" alt="Logo2">
+        <img src="../app/images/Logo3.png" alt="Logo3">
+        <img src="../app/images/Logo4.png" alt="Logo4">
+    </div>
+</section>
+<section class="map container flex-container">
+<img src="../app/images/maps.png" alt="maps">
 </section>

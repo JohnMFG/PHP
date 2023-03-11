@@ -8,7 +8,7 @@
                 <h1>Web Designer Type Designer based in Sidoarjo</h1>
                 <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim
                     id est laborum</p>
-                <button>My Story</button>
+                <button onclick="window.location.href='' ">My Story</button>
             </div>
         </div>
     </section>
