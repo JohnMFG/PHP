@@ -29,4 +29,4 @@
         <a class="number" href="tel:+62123456789"> +621 2345 6789</a>
     </div>
 </header>
-<div class="title">
+<!-- <div class="title"> -->

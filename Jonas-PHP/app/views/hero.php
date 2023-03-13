@@ -1,5 +1,5 @@
-<div class="hero">
-    <section class="container flex-container">
+<div class="hero ">
+    <section class="hero-section container flex-container">
         <div class="left-image">
             <img src="../app/images/Man1.png" alt="man looking to the right">
         </div>

@@ -26,7 +26,6 @@ body {
             #FCCA2E 35%,
             #0C0023 35%);
     max-height: 930px;
-    /* background-color: #0C0023; */
 }
 
 .hero {
@@ -389,8 +388,6 @@ footer h3 {
         display: block;
     }
 
-
-
     .navbar-mobile ul {
         flex-direction: column;
         display: none;
@@ -423,6 +420,93 @@ footer h3 {
         position: absolute;
         right: 20px;
         top: 30px;
-        color:#FCCA2E;
+        color: #FCCA2E;
+    }
+
+    .title {
+        background: #0C0023;
+        max-height: 900px;
+    }
+
+    .logoName h1 {
+        color: #FCCA2E;
+    }
+
+    .left-image {
+        display: none;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-text-container h1,
+    .right-text-container p {
+        text-align: center;
+        color: #FCCA2E;
+    }
+
+    .culture-container {
+        padding-left: 80px;
+    }
+
+    .contact {
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+    }
+
+    .contactMe-container {
+        width: 880px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .contactMe {
+        max-width: none;
+        text-align: center;
+    }
+    .contacts-container{
+        display: flex;
+        padding: 20px;
+    }
+
+    .phone,
+    .mail,
+    .location {
+        padding: 20px;
+    }
+
+    .form-container-main {
+        max-width: 840px;
+        margin: 0 auto;
+        /* max-width: none; */
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+    }
+
+
+
+    .brands-logos {
+        max-width: 840px;
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 }
+
+/* 320 */

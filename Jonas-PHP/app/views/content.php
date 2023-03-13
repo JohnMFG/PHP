@@ -161,7 +161,7 @@
     </div>
 </section>
 <section class="brands">
-    <div class="brands container flex-container">
+    <div class="brands-logos container flex-container">
         <img src="../app/images/Logo1.png" alt="Logo1">
         <img src="../app/images/Logo2.png" alt="Logo2">
         <img src="../app/images/Logo3.png" alt="Logo3">

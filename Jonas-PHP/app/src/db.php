@@ -7,7 +7,6 @@
 
     $mysqli = new mysqli(DB_SERVER, DB_USER, DB_PASSWORD, DB_NAME);
     if($mysqli->connect_error){
-        echo 'Ups, turim klaida.';
         echo 'Klaida: ' . $mysqli->connect_error . '\n';
         exit();
     }
