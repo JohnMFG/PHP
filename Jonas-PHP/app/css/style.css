@@ -51,6 +51,11 @@ ul {
     align-items: center;
 }
 
+.brands .container.flex-container {
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar {
     font-size: 20px;
 }
@@ -273,7 +278,7 @@ button:hover {
 }
 
 .col img {
-    display: block;
+    display: block;   
     width: 100%;
 }
 
@@ -360,6 +365,8 @@ button:hover {
 }
 
 .map img {
+    max-width: 100%;
+    height: auto;
     margin: 30px;
 }
 
@@ -371,6 +378,7 @@ footer {
 footer h3 {
     font-weight: 400;
     font-size: 16px;
+    text-align: center;
 }
 
 @media screen and (max-width: 980px) {
@@ -459,25 +467,33 @@ footer h3 {
         padding-left: 80px;
     }
 
-    .contact {
-        flex-direction: column;
-        /* align-items: center;
-        justify-content: center; */
+    .design {
+        flex-wrap: wrap;
+        margin-bottom: 300px;
     }
 
-    .contactMe-container {
-        width: 880px;
-        /* display: flex;
+    .design div {
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center; */
+        align-items: center;
     }
+
+    .contact {
+        flex-direction: column;
+        margin-bottom: 300px;
+    }
+
+    /* .contactMe-container {
+        width: 880px;
+    } */
 
     .contactMe {
         max-width: none;
         text-align: center;
     }
-    .contacts-container{
+
+    .contacts-container {
         display: flex;
         padding: 20px;
     }
@@ -491,10 +507,12 @@ footer h3 {
     .form-container-main {
         max-width: 840px;
         margin: 0 auto;
-        /* max-width: none; */
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center; */
+    }
+
+    .input-row .mobile-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 
@@ -507,6 +525,38 @@ footer h3 {
         align-items: center;
         justify-content: center;
     }
+
 }
 
+@media screen and (max-width: 810px) {
+    
+    .gallery-flex {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .col {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container.gallery-flex {
+        margin: 0;
+    }
+
+    .contacts-container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .contact {
+        flex-direction: column;
+        margin-bottom: 450px;
+    }
+}
 /* 320 */

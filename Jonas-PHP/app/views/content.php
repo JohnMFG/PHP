@@ -150,7 +150,9 @@
                 <input type="text" name="subject" required>
                 <p>Your Message</p>
                 <textarea name="message" rows="8" placeholder="Your Message*" required></textarea>
-                <button type="submit" name="submit">Get a free quote</button>
+                <div class="mobile-center">
+                    <button type="submit" name="submit">Get a free quote</button>
+                </div>
             </div>
 
             <div class="right-text-container">
@@ -169,5 +171,5 @@
     </div>
 </section>
 <section class="map container flex-container">
-<img src="../app/images/maps.png" alt="maps">
+    <img src="../app/images/maps.png" alt="maps">
 </section>
