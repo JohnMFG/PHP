@@ -170,7 +170,6 @@ button:hover {
 }
 
 .aboutMe-culture-section {
-    height: 900px;
     padding-top: 10px;
 }
 
@@ -198,6 +197,10 @@ button:hover {
 
 .icons-container img {
     padding-right: 20px;
+}
+
+.design {
+    padding-bottom: 30px;
 }
 
 .design div {
@@ -257,7 +260,7 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 800px;
+    max-width: 800px;
 }
 
 .gallery {
@@ -278,7 +281,7 @@ button:hover {
 }
 
 .col img {
-    display: block;   
+    display: block;
     width: 100%;
 }
 
@@ -367,18 +370,30 @@ button:hover {
 .map img {
     max-width: 100%;
     height: auto;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 footer {
     flex-direction: column;
-    width: 570px;
+    max-width: 570px;
 }
 
 footer h3 {
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+}
+
+@media screen and (max-width: 1120px) {
+    .brands-logos {
+        max-width: 840px;
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 980px) {
@@ -463,30 +478,60 @@ footer h3 {
         color: #FCCA2E;
     }
 
-    .culture-container {
-        padding-left: 80px;
+    .aboutMe-culture {
+        flex-direction: column;
     }
+
+    .culture-container {
+        padding-left: 0px;
+    }
+
+    .aboutMe-container {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .aboutMe-text {
+        flex-direction: column;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .watch-video {
+        justify-content: center;
+    }
+
+    .culture-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
 
     .design {
         flex-wrap: wrap;
-        margin-bottom: 300px;
     }
 
     .design div {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+    }
+
+    .freelance-container {
+        padding: 30px 80px;
+    }
+
+    .right-text-container p {
+        color: white;
     }
 
     .contact {
         flex-direction: column;
         margin-bottom: 300px;
     }
-
-    /* .contactMe-container {
-        width: 880px;
-    } */
 
     .contactMe {
         max-width: none;
@@ -517,25 +562,30 @@ footer h3 {
 
 
 
-    .brands-logos {
-        max-width: 840px;
-        width: 100%;
-        margin: 0 auto;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
+
 
 }
 
 @media screen and (max-width: 810px) {
-    
+    .freelance-container {
+        padding: 5px 10px;
+        max-width: 480px;
+    }
+
+    .freelanceButtons {
+        flex-direction: column;
+    }
+
+    .text-under {
+        font-size: 100px;
+    }
+
     .gallery-flex {
         flex-wrap: nowrap;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .col {
         max-width: 100%;
         height: auto;
@@ -549,14 +599,17 @@ footer h3 {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        /* flex-direction: column; */
     }
 }
 
 @media screen and (max-width: 610px) {
+    .right-text h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
     .contact {
         flex-direction: column;
         margin-bottom: 450px;
     }
 }
-/* 320 */

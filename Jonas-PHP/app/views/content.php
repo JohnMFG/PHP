@@ -133,7 +133,7 @@
                 <img src="../app/images/VisitOfficeIcon.png" alt="VisitOfficeIcon">
                 <div>
                     <h4>Visit Office</h4>
-                    <a href="http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003">99
+                    <a href="https://www.google.com/maps/place/1200+Pennsylvania+Ave.+SE,+Washington,+DC+20003,+Jungtinės+Valstijos/@38.8826248,-76.9928571,17z/data=!3m1!4b1!4m6!3m5!1s0x89b7b834fb4029d3:0x9270eee67ab54203!8m2!3d38.882651!4d-76.9905426!16s%2Fg%2F11b8vgh87t">99
                         S.t Jomblo Park <br> Pekanbaru 28292. Indonesia</a>
                 </div>
             </div>
